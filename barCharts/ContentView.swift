@@ -8,7 +8,11 @@ struct ContentView: View {
     var body: some View {
         Chart {
             ForEach(weekdays.indices, id: \.self) { index in
-                BarMark(x: .value("Day", weekdays[index]), y: .value("Steps", steps[index]))
+                BarMark(
+                    x: .value("weekdays", steps[index]),
+                    y: .value("steps", weekdays[index])
+                )
+
                     .foregroundStyle(by: .value("Day", weekdays[index]))
                     .annotation {
                         Text("\(steps[index])")
