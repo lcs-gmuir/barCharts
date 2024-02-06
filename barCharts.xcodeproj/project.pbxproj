@@ -10,6 +10,7 @@
 		C21233C62B72BFCE00B5925C /* weatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21233C52B72BFCE00B5925C /* weatherData.swift */; };
 		C21233C82B72C0B600B5925C /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21233C72B72C0B600B5925C /* LineGraph.swift */; };
 		C21233CC2B72CD0C00B5925C /* MultiLineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21233CB2B72CD0C00B5925C /* MultiLineGraph.swift */; };
+		C21233CE2B72CF4A00B5925C /* entrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21233CD2B72CF4A00B5925C /* entrance.swift */; };
 		C21D77972B708E8300E88B2B /* barChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D77962B708E8300E88B2B /* barChartsApp.swift */; };
 		C21D77992B708E8300E88B2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D77982B708E8300E88B2B /* ContentView.swift */; };
 		C21D779B2B708E8C00E88B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21D779A2B708E8C00E88B2B /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		C21233C52B72BFCE00B5925C /* weatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherData.swift; sourceTree = "<group>"; };
 		C21233C72B72C0B600B5925C /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
 		C21233CB2B72CD0C00B5925C /* MultiLineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineGraph.swift; sourceTree = "<group>"; };
+		C21233CD2B72CF4A00B5925C /* entrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entrance.swift; sourceTree = "<group>"; };
 		C21D77932B708E8300E88B2B /* barCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21D77962B708E8300E88B2B /* barChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barChartsApp.swift; sourceTree = "<group>"; };
 		C21D77982B708E8300E88B2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				C21D77962B708E8300E88B2B /* barChartsApp.swift */,
+				C21233CD2B72CF4A00B5925C /* entrance.swift */,
 				C21233C92B72C2ED00B5925C /* Graph Views */,
 				C21233CA2B72C30D00B5925C /* Data */,
 				C21D779A2B708E8C00E88B2B /* Assets.xcassets */,
@@ -289,6 +292,7 @@
 				C21D77972B708E8300E88B2B /* barChartsApp.swift in Sources */,
 				C21233C62B72BFCE00B5925C /* weatherData.swift in Sources */,
 				C21233CC2B72CD0C00B5925C /* MultiLineGraph.swift in Sources */,
+				C21233CE2B72CF4A00B5925C /* entrance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

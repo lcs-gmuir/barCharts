@@ -11,7 +11,23 @@ import SwiftUI
 struct barChartsApp: App {
     var body: some Scene {
         WindowGroup {
-            LineGraph()
+            TabView {
+                ContentView()
+                    .tabItem {
+                        Image(systemName: "Graph.fill")
+                        Text("Bar Graph")
+                    }
+                LineGraph()
+                    .tabItem {
+                        Image(systemName: "graph.fill")
+                        Text("Line Graph")
+                    }
+                MultiLineGraph()
+                    .tabItem {
+                        Image(systemName: "graph.fill")
+                        Text("Multi Line Graph")
+                    }
+            }
         }
     }
 }
