@@ -6,13 +6,26 @@
 //
 
 import SwiftUI
+import Charts
+
+let chartData = [ (city: "Hong Kong", data: hkWeatherData),
+                  (city: "London", data: londonWeatherData),
+                  (city: "Taipei", data: taipeiWeatherData) ]
 
 struct LineGraph: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Chart {
+                ForEach(hkWeatherData) { item in
+                    LineMark(
+                        x: .value("Month", item.date),
+                        y: .value("Temp", item.temperature)
+                    )
+                }
+            }
+            .frame(height: 300)
+        }
     }
 }
 
-#Preview {
-    LineGraph()
-}

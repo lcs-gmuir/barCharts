@@ -11,7 +11,7 @@ import SwiftUI
 struct barChartsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LineGraph()
         }
     }
 }
