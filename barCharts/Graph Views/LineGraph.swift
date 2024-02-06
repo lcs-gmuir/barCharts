@@ -34,6 +34,10 @@ struct LineGraph: View {
             .chartYAxis {
                 AxisMarks(position: .leading)
             }
+            .chartPlotStyle { plotArea in
+                plotArea
+                    .background(.blue.opacity(0.1))
+            }
             .frame(height: 300)
         }
     }
