@@ -36,7 +36,7 @@ struct LineGraph: View {
             }
             .chartPlotStyle { plotArea in
                 plotArea
-                    .background(.blue.opacity(0.1))
+                    .background(.purple.opacity(0.5))
             }
             .frame(height: 300)
         }
