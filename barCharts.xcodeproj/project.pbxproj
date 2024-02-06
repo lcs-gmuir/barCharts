@@ -76,6 +76,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C21233C92B72C2ED00B5925C /* Graph Views */ = {
+			isa = PBXGroup;
+			children = (
+				C21D77982B708E8300E88B2B /* ContentView.swift */,
+				C21233C72B72C0B600B5925C /* LineGraph.swift */,
+			);
+			path = "Graph Views";
+			sourceTree = "<group>";
+		};
+		C21233CA2B72C30D00B5925C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C21233C52B72BFCE00B5925C /* weatherData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		C21D778A2B708E8300E88B2B = {
 			isa = PBXGroup;
 			children = (
@@ -100,9 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				C21D77962B708E8300E88B2B /* barChartsApp.swift */,
-				C21D77982B708E8300E88B2B /* ContentView.swift */,
-				C21233C72B72C0B600B5925C /* LineGraph.swift */,
-				C21233C52B72BFCE00B5925C /* weatherData.swift */,
+				C21233C92B72C2ED00B5925C /* Graph Views */,
+				C21233CA2B72C30D00B5925C /* Data */,
 				C21D779A2B708E8C00E88B2B /* Assets.xcassets */,
 				C21D779F2B708E8C00E88B2B /* barCharts.entitlements */,
 				C21D779C2B708E8C00E88B2B /* Preview Content */,

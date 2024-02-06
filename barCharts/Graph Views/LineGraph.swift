@@ -23,6 +23,13 @@ struct LineGraph: View {
                         y: .value("Temp", item.temperature)
                     )
                 }
+                
+            }
+            .chartXAxis {
+                AxisMarks(values: .stride(by: .month)) { value in
+                    AxisGridLine()
+                    AxisValueLabel(format: .dateTime.month(.defaultDigits))
+                }
             }
             .frame(height: 300)
         }
