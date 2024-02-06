@@ -31,6 +31,9 @@ struct LineGraph: View {
                     AxisValueLabel(format: .dateTime.month(.defaultDigits))
                 }
             }
+            .chartYAxis {
+                AxisMarks(position: .leading)
+            }
             .frame(height: 300)
         }
     }
