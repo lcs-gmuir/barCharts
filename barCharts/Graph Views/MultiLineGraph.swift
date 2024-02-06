@@ -19,7 +19,7 @@ struct MultiLineGraph: View {
                 }
                 .foregroundStyle(by: .value("City", series.city))
                 .symbol(by: .value("City", series.city))
-                .interpolationMethod(.stepStart)
+                .interpolationMethod(.linear)
                 
             }
         }
